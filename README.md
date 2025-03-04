@@ -25,6 +25,13 @@ This project performs **NLP analysis** on the **Bible** to analyze word frequenc
 ✅ **Visualize** the results using word clouds and bar charts.  
 ✅ **Develop** an interactive Streamlit app.  
 
+## Data Collection
+For this project, the biblical text was fetched using the Bible API. We used the Bible API (bible-api.com) and structured it into JSON format. The data consists of:  
+- **Book**: The name of the book (e.g., Genesis, Exodus).  
+- **Chapter**: The chapter number.  
+- **Reference**: The verse reference.  
+- **Text**: The actual biblical text content.
+
 ## 🧹 Data Cleaning & Preprocessing
 To ensure accurate analysis, the text undergoes multiple preprocessing steps:
 
